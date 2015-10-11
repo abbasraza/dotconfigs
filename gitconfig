@@ -1,0 +1,50 @@
+[user]
+	email = abbas.raza.1707@gmail.com
+	name = Abbas Raza
+[color]
+	ui = auto
+[alias]
+	st = status
+        df = diff
+        logs = log -p
+        log1 = log --oneline
+ 	lol = log --graph --decorate --pretty=oneline --abbrev-commit
+        lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+        br = branch
+	ci = commit -s
+        co = checkout
+        ls = ls-files
+	fp = format-patch
+	f = fetch
+	cp = cherry-pick -x
+[sendemail]
+	smtpserver = mail.mentor.com
+
+[sendemail "uboot"]
+	to = u-boot@lists.denx.de
+	from = Abbas Raza <abbas_raza@mentor.com>
+[sendemail "dri-devel"]
+	to = dri-devel@lists.freedesktop.org
+	from = Abbas Raza <abbas_raza@mentor.com>
+	smtpserver = mail.mentor.com
+[sendemail "lkml"]
+	to = linux-kernel@vger.kernel.org
+	from = Abbas Raza <abbas_raza@mentor.com>
+	smtpserver = mail.mentor.com
+[sendemail "mmc"]
+	to = linux-mmc@vger.kernel.org
+	from = Abbas Raza <abbas_raza@mentor.com>
+	smtpserver = mail.mentor.com
+[sendemail "fs"]
+	to = linux-fsdevel@vger.kernel.org
+	to = linux-ext4@vger.kernel.org
+	from = Abbas Raza <abbas_raza@mentor.com>
+	smtpserver = mail.mentor.com
+[sendemail "usb"]
+	to = linux-usb@vger.kernel.org
+	cc = peter.chen@freescale.com
+	from = Abbas Raza <abbas_raza@mentor.com>
+	smtpserver = mail.mentor.com
+
+[credential]
+	helper = cache --timeout=237000
